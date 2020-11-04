@@ -1,0 +1,98 @@
+.red {
+    background-color:#E1021A !important;
+}
+
+.red-text {
+    color:#E1021A !important;
+}
+
+.main{
+    .container{
+        scroll-margin-top: 150px;
+    }
+    p {
+        line-height: 2rem;
+    }
+
+    h1 {
+        font-weight: 600;
+    }
+
+    .card-reveal{
+        a{
+            color: white;
+        }
+    }
+
+    .card{
+        &:hover{
+            box-shadow: 0 8px 17px 2px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.2);
+        }
+
+        a.btn{
+            background-color: #e2001a;
+            color: white;
+        }
+    }
+
+
+    a{
+        color: #e2001a;
+    }
+
+    #what, #when {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .btn-large {
+        background-color: #e2001a;
+        color: #fff;
+
+        &:hover {
+            background-color: rgba(213,0,0,0.5);
+        }
+    }
+
+    .parallax-container {
+        min-height: 50vh;
+        line-height: 0;
+        // height: auto;
+        color: rgba(255,255,255,.9);
+
+        &.valign-wrapper{
+            height:auto;
+        }
+
+        .section {
+            width: 100%;
+        }
+    }
+
+    .icon-block {
+        padding: 0 15px;
+
+        .material-icons {
+            font-size: inherit;
+            color: #e2001a;
+        }
+    }
+
+    .underlined{
+        border-bottom: solid 1px lightgrey;
+        padding-bottom: 15px !important;
+    }
+
+    form>.btn{
+        background-color: #e2001a;
+    }
+
+    .hide{
+        display: none;
+    }
+
+    .agenda .card-title {
+        font-size: 16px;
+        font-weight: 500;
+    }
+}

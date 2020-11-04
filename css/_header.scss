@@ -1,0 +1,122 @@
+#index-banner {
+    height: calc(100vh - 64px);
+    background: rgb(0,0,0);
+    position: relative;
+
+    .background {
+        position: absolute;
+        height: calc(100vh - 64px);
+        width: 100%;
+        opacity: 0.5;
+        background: url("../media/emlyon1926.jpg") no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    .content {
+        position: absolute;
+        height: calc(100vh - 64px);
+        margin-top: 0;
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .badge > img {
+            cursor: pointer;
+        }
+    }
+
+    .btn-large {
+        background-color: #e2001a;
+        color: #fff;
+
+        &:hover {
+            background-color: rgba(213,0,0,0.5);
+        }
+    }
+
+    .web {
+        background-color: #43B8B0;
+        color: #fff;
+
+        &:hover {
+            background-color: rgba(67,184,176,0.5);
+        }
+    }
+
+    .ai {
+        background-color: #FBB03B;
+        color: #fff;
+
+        &:hover {
+            background-color: rgba(251,176,59,0.5);
+        }
+    }
+
+    .fab {
+        background-color: #4A4A49;
+        color: #fff;
+
+        &:hover {
+            background-color: rgba(74,74,73,0.5);
+        }
+    }
+
+    .iot {
+        background-color: #29ABE2;
+        color: #fff;
+
+        &:hover {
+            background-color: rgba(41,171,226,0.5);
+        }
+    }
+    .menu {
+        margin-top: 4em;
+        text-align: center;
+        .swap{
+            margin: 0px;
+        }
+        a {
+            margin: 10px;
+        }
+    }
+}
+
+@media only screen and (min-width : 600px) {
+    #index-banner .section {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    #index-banner .section {
+        margin-top: -20px;
+    }
+
+    #index-banner a {
+        margin: 10px;
+    }
+
+    .tutorials {
+        width: 100%;
+    }
+
+    .mob {
+        width: 80%;
+        padding-left: 20%;
+    }
+
+    .menu {
+        margin-top: 0px !important;
+        text-align: left !important;
+        overflow-x:scroll;
+        overflow-y: hidden;
+        padding-left: 10%;
+        .swap {
+            width: 800px;
+            display: inline-block;
+            margin: 0px;
+        }
+    }
+}
