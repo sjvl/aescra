@@ -2,7 +2,7 @@ include( `
     <footer class="page-footer" style="background-color: #e2001a;">
         <div class="container">
             <div class="row">
-                <div class="col m6">
+                <div class="col m6 s7">
                     <h5 class="white-text">About us</h5>
 
                     <p class="grey-text text-lighten-4">
